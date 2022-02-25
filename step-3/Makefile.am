@@ -1,3 +1,6 @@
+# Generating content for m4 directory.
+ACLOCAL_AMFLAGS = -I m4
+
 # first library: same as step-2, but with a new name.
 lib_LTLIBRARIES = libhello.la
 libhello_la_SOURCES = $(top_srcdir)/source/hello/hello.cc $(top_srcdir)/include/hello/hello.h

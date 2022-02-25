@@ -12,9 +12,6 @@ AC_CONFIG_AUX_DIR([config])
 # locally:
 AC_CONFIG_MACRO_DIR([m4])
 
-# create content for amlocal directory as required
-AC_CONFIG_MACRO_DIR([m4])
-
 # use version 1.9 or newer; do not assume that this is a GNU application. Turn
 # on all warnings. Permit the use of source files in subdirectories.
 AM_INIT_AUTOMAKE([1.9 foreign -Wall -Werror subdir-objects])
