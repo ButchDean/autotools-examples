@@ -1,3 +1,6 @@
+# Generating content for m4 directory.
+ACLOCAL_AMFLAGS = -I m4
+
 # Declare the library: libtool can build either a shared or static library, we
 # just have to declare its dependencies.
 lib_LTLIBRARIES = libstep2.la
